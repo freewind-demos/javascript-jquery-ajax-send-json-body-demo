@@ -7,7 +7,7 @@ app.use(express.static('./'))
 app.post('/data.json', function (req, res) {
     console.log(req.body)
     res.json({
-        hello: 'ajax-interceptor',
+        hello: 'jquery.ajax',
         username: req.body.username
     })
 })
