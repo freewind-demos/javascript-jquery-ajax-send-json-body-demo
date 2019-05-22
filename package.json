@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "node server.js"
+    "demo": "open index.html"
   },
   "dependencies": {
     "express": "^4.16.3",
